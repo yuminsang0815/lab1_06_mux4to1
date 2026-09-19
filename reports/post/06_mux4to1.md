@@ -22,7 +22,7 @@ Close Simulation → Run Synthesis → Run Implementation → Generate Bitstream
 
 타깃 보드에 비트스트림을 기록한 후, 푸시버튼 KEY1~4를 데이터 입력 i[3:0]에, DIP1~2를 선택선 s[1:0]에 매핑하고 출력 z를 LED1에 연결하여 실측했습니다.
 
-| 조건(a,b) | 시뮬레이션 z | 실측 o[2:0] | 사진 |
+| 조건 | 시뮬레이션 z | 실측 z | 사진 |
 |---|---|---|---|
 | i=1000,s=00 | 1 | 1 | [i=1000,s=00](../../evidence/06/board/photos/input-i=1000,s=00.jpg) |
 | i=1000,s=01 | 0 | 0 | [i=1000,s=01](../../evidence/06/board/photos/input-i=1000,s=01.jpg) |
