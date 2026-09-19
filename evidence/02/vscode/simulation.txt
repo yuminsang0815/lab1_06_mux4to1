@@ -1,0 +1,16 @@
+ *  Executing task in folder PROJECT: C:\Users\a2391\AppData\Local\Microsoft\WindowsApps\python.EXE tools/lab1.py simulate 
+
+RUN C:\iverilog\bin\iverilog.EXE -g2012 -Wall -I C:\Users\a2391\lab1_06_mux4to1\src -I C:\Users\a2391\lab1_06_mux4to1\sim -s tb_mux_4x1 -o C:\Users\a2391\lab1_06_mux4to1\build\sim\run-87b6997bf8054789bc665046780006ae\sim.vvp C:\Users\a2391\lab1_06_mux4to1\src\mux_4x1.v C:\Users\a2391\lab1_06_mux4to1\sim\tb_mux_4x1.sv
+warning: Some design elements have no explicit time unit and/or
+       : time precision. This may cause confusing timing results.
+       : Affected design elements are:
+       :   -- module mux_4x1 declared here: C:\Users\a2391\lab1_06_mux4to1\src\mux_4x1.v:1
+
+RUN C:\iverilog\bin\vvp.EXE -N C:\Users\a2391\lab1_06_mux4to1\build\sim\run-87b6997bf8054789bc665046780006ae\sim.vvp
+VCD info: dumpfile wave.vcd opened for output.
+LAB1_PASS mux_4x1 cases=64
+C:\Users\a2391\lab1_06_mux4to1\sim\tb_mux_4x1.sv:19: $finish called at 640000 (1ps)
+
+시뮬레이션 실행 완료. 진리표·자기검사·파형으로 회로의 정답 여부를 확인하세요.
+WAVE C:\Users\a2391\lab1_06_mux4to1\build\sim\wave.vcd
+ *  Terminal will be reused by tasks, press any key to close it. 
